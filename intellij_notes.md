@@ -5,26 +5,24 @@ https://pavelfatin.com/typing-with-pleasure/
 https://groups.google.com/forum/#!topic/cursive/ueBJTXKRvis/discussion
 https://github.com/cursive-ide/cursive/wiki/IdeaVim-issues
 https://github.com/cursive-ide/cursive/wiki/Mapping-IdeaVim-actions-to-Cursive-actions
-SEARCH PROJECT (alt up-down/arrow) go throgh history
-ctrl n classes :40 line 40
-shift ctrl n file / packages?
-shift ctrl alt n symbol ns.symbol to limit to ns
-ctrl shift a search action
-shift shift search everywhere ;useful for looking up settings
+Goto
+* shift shift search everywhere ;useful for looking up settings
 
-turn tabs off in settings editor tabs = none and replace with
-ctrl e recent file
-shift ctrl e recent edited file
-ctrl tab quick switch or use ctrl alt left/right
-
-side windows (ctrl shift arrows to resize)
-alt 1 project explorer (alternative see navigation bar)
-project explorer select config and scroll to source scroll from source
-(if i dont use autoscroll f4 will open file AND focus editor and take me to source esc will focus editor shift esc will close explorer)
-search start typing up/down arrow next previous
-side arrows expand folders
-shift esc close
+### Side windows
+* alt 1 project explorer (alternative see navigation bar)
+#### General for side windows
+* f4 will open file AND focus editor and take me to source esc will focus editor
+* search start typing up/down arrow next previous
+* side arrows expand folders
+* shift esc close
+* shift ctrl f12 minimize all crap
+* ctrl shift arrows to resize
 Jump To Navigation Bar see create new file
+
+#### General for popups
+ctrl j for documents
+ctrl shift i for popup
+alt up/down gothrogh history
 
 in file
 ctrl f12 file structure
@@ -37,7 +35,30 @@ shift alt up/down move selection up down
 
 shift ctrl v clipboard history
 
-GENERATE stuff
+cheet cheets
+cursive help -> show cursive ceat cheet
+idea help -> show keymaps
+ideavim https://github.com/JetBrains/ideavim/blob/master/src/com/maddyhome/idea/vim/package-info.java
+
+REFACTORING put this with live templates, and generate what was the nice complete expression thing shift ctrl enter OBS Start use that for fn and insering semcolons etc!
+shift-ctrl-alt-t Refactor this, not context sensetive very nice
+
+
+BUILD/RUN
+COMPLETION
+write builder and press ctrl alt space and i get all static methods that has builder in and i can then import them with alt enter nice
+VCS
+ctrl t pull
+ctrl k commit changes
+ctrl v vsc quick list
+
+Quick List
+Quick list i can create and are like small popups that has useful things
+Interesting how can i use this with my leader key to provide like a spacemacs experience
+
+alt f12 open terminal
+
+Coding assistance
 alt enter implement stuff
 ctrl n generate things
 create new file
@@ -49,19 +70,13 @@ awsome to use with if statements, class declaration functions etc
 TODO what is command to select sugestion but dont overwrite the one olle had
 Live templates is in Preferences...
 ctrl alt t surround with live template NICE (ctrl alt u what does it do he used it first??)
-TODO is this in the surround plugin for ideavim?
 ctrl j on an instance shows live template if i do reader.<ctrl j>
 
 COOL in completion
 ctrl shift space smart completion
 ctrl space ordinary completion
-ctrl j smart documentation works in file also
-ctrl shift i popup impl works in file also
 
- Dont search and replace use
- ctrl b goto declaration
- ctrl alt b go to implementations
- shift ctrl i opens overlay of declaration instaed of jumping there
+shift ctrl i opens overlay of declaration instaed of jumping there
 
 
 clojure specific stuff
