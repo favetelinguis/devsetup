@@ -5,9 +5,6 @@ https://pavelfatin.com/typing-with-pleasure/
 https://groups.google.com/forum/#!topic/cursive/ueBJTXKRvis/discussion
 https://github.com/cursive-ide/cursive/wiki/IdeaVim-issues
 https://github.com/cursive-ide/cursive/wiki/Mapping-IdeaVim-actions-to-Cursive-actions
-Goto
-* shift shift search everywhere ;useful for looking up settings
-
 ### Side windows
 * alt 1 project explorer (alternative see navigation bar)
 #### General for side windows
@@ -20,68 +17,47 @@ Goto
 Jump To Navigation Bar see create new file
 
 #### General for popups
-ctrl j for documents
-ctrl shift i for popup
-alt up/down gothrogh history
+* ctrl j for documents TODO this works sometimes?
+* ctrl shift i for popup
+* alt up/down gothrogh history
 
-in file
-ctrl f12 file structure
-ctrl alt f7 popup all usages in file NICE!
-shift ctrl f7 hightling usages in file works on throws and returns also
+### Selecting text
+* alt up/down arrow expand selection
+* shift alt up/down move selection up down
 
-selecting text
-alt up/down arrow expand selection
-shift alt up/down move selection up down
+### cheet cheets
+* cursive help -> show cursive ceat cheet
+* idea help -> show keymaps
+* ideavim https://github.com/JetBrains/ideavim/blob/master/src/com/maddyhome/idea/vim/package-info.java
 
-shift ctrl v clipboard history
+### Use IDEA defaults
+* ctrl e recent file
+* shift ctrl e recent edited file
+* ctrl tab quick switch or use ctrl alt left/right
+* ctrl shift i Definition popu
+* alt 1 Project view
+* alt f12 open terminal
+* ctrl n generate things
 
-cheet cheets
-cursive help -> show cursive ceat cheet
-idea help -> show keymaps
-ideavim https://github.com/JetBrains/ideavim/blob/master/src/com/maddyhome/idea/vim/package-info.java
+### COMPLETION
+* write builder and press ctrl alt space and i get all static methods that has builder in and i can then import them with alt enter nice
+* enter to select and overwrite tab to select and insert
+* ctrl shift space smart completion
+* ctrl space ordinary completion
+* ctrl j on an instance shows live template if i do reader.<ctrl j>
 
-REFACTORING put this with live templates, and generate what was the nice complete expression thing shift ctrl enter OBS Start use that for fn and insering semcolons etc!
-shift-ctrl-alt-t Refactor this, not context sensetive very nice
+### VCS
+* ctrl t pull
+* ctrl k commit changes
+* ctrl v vsc quick list
 
+### Quick List
+* Quick list i can create and are like small popups that has useful things
+* Interesting how can i use this with my leader key to provide like a spacemacs experience
 
-BUILD/RUN
-COMPLETION
-write builder and press ctrl alt space and i get all static methods that has builder in and i can then import them with alt enter nice
-VCS
-ctrl t pull
-ctrl k commit changes
-ctrl v vsc quick list
-
-Quick List
-Quick list i can create and are like small popups that has useful things
-Interesting how can i use this with my leader key to provide like a spacemacs experience
-
-alt f12 open terminal
-
-Coding assistance
-alt enter implement stuff
-ctrl n generate things
-create new file
- 1 In project alt insert
- 2 Same directory as current one ctrl alt insert
- 3 Type name and use alt enter
-shift ctrl enter complete statement like put semicolon at end
-awsome to use with if statements, class declaration functions etc
-TODO what is command to select sugestion but dont overwrite the one olle had
-Live templates is in Preferences...
-ctrl alt t surround with live template NICE (ctrl alt u what does it do he used it first??)
-ctrl j on an instance shows live template if i do reader.<ctrl j>
-
-COOL in completion
-ctrl shift space smart completion
-ctrl space ordinary completion
-
-shift ctrl i opens overlay of declaration instaed of jumping there
-
-
-clojure specific stuff
- Edit -> Structual editing
- Navigate Structual movement
- Navigate Namespace
- Navigate Keyword
- Tools REPL
+### Coding assistance
+* alt enter implement stuff
+* create new file
+* 1 In project alt insert
+* 2 Same directory as current one ctrl alt insert
+* 3 Type name and use alt enter
