@@ -32,7 +32,7 @@ Jump To Navigation Bar see create new file
 
 ### Use IDEA defaults
 * ctrl e recent file
-* shift ctrl e recent edited file
+* ctrl shift e recent locations
 * ctrl tab quick switch or use ctrl alt left/right
 * ctrl shift i Definition popu
 * alt 1 Project view
